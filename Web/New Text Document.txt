@@ -3,10 +3,7 @@
         <head>
             <title> Web Test</title>
             <link rel = "icon" type="image/x-icon" href="https://cdn-icons.flaticon.com/png/512/2955/premium/2955074.png?token=exp=1635694710~hmac=e0b842e1883763463373846ea1504948">
-            <meta name="viewport" content="width=device-width">
-            <base href="https://www.yahoo.com">
-           <style>
-             
+            <style>
     h1 {
         font-family: "Montserrat";
         padding: 20px 20px 20px 20px; 
@@ -43,7 +40,7 @@
     th,tr,td{
         border: 2px solid rgb(93, 48, 218);
         text-align: center;
-        font-size:10px;
+        
 
     }
     tr:nth-child(even){
@@ -82,8 +79,7 @@ iframe{
     margin-left: auto;
     margin-right: auto;
     display: block;
-    width: 25%;
-    border-radius: 5px;
+    width: 50%;
 }
 
 
@@ -106,9 +102,8 @@ iframe{
                 <h2 style="color: aquamarine;">This is a Heading</h2>
 
             </a>
-<br><br><br>
+
             <iframe src="file:///W:/Coding%20Workspace/VScode/Web/a.html" title="Pexels"></iframe>
-            <br><br><br>
             <a href="http://www.google.com" target="_blank" style="text-decoration: none;" title="This is a Heading"> 
             
             <img src = "https://images.pexels.com/photos/1165991/pexels-photo-1165991.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260 " alt="Heading">
@@ -207,17 +202,6 @@ iframe{
 <dt>Time of release</dt>
 <dd>2020</dd>
 </dl>
-
-<audio controls autoplay="true">
-<source src="M:\Music\English\Apollo.mp3">
-</audio>
-
-<br>
-<video controls width="300" height="300">
-
-    <source src="M:\Videos\Travel\IV\ece.mp4" type ="video/mp4">
-    
-    </video>
 
             </body>
         </html>
