@@ -23,20 +23,30 @@ h2 {
     background-attachment: fixed;
 }
 img {
-    width: 100%;
+    width: 45%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius:22px;
 
   
 }
 table{
-    border: 2px solid red;
     width: 100%;
+    border: 2px solid red;
+    border-collapse: collapse;
 }
 tr,td{
     border: 2px solid red;
     text-align: center;
 
 }
-
+body{
+    background-color: rgb(117, 39, 39);
+}
+thead{
+    background-color:red;
+}
         </style>
     </head>
     <body>
@@ -71,13 +81,19 @@ tr,td{
 
 <table>
     
+    <colgroup>
+        <col span="3" style="background-color: aquamarine;"
+        </colgroup>
     
     <caption> Table</caption>
+<thead>
     <tr>
-    <th id = "one">Name</th>
-    <th id = "">Name</th>
-    <th id ="">Name</th>
-</tr>
+        <th id = "one">Name</th>
+        <th id = "">Name</th>
+        <th id ="">Name</th>
+    </tr>
+
+</thead>
 
 <tr>
     <td>John</td>
