@@ -7,7 +7,7 @@
 h1 {
     font-family: "Montserrat";
     padding: 20px 20px 20px 20px; 
-    border: 14px solid red;
+    border: 4px solid red;
     margin: 5px;
     text-align: center;
     background-color: rgb(19, 3, 112)
@@ -15,7 +15,7 @@ h1 {
 h2 {
     font-family: "Montserrat";
     padding: 20px 20px 20px 20px; 
-    border: 14px solid red;
+    border: 4px solid red;
     margin: 5px;
     text-align: center;
     background-image: url('https://i.pinimg.com/564x/15/c3/36/15c336d04498c63a31d9de816e28daee.jpg');
@@ -32,21 +32,50 @@ img {
   
 }
 table{
-    width: 100%;
-    border: 2px solid red;
+    width: 60%;
     border-collapse: collapse;
+    border-style: ridge;
+    margin:auto;
 }
-tr,td{
-    border: 2px solid red;
+th,tr,td{
+    border: 2px solid rgb(93, 48, 218);
     text-align: center;
+    
 
+}
+tr:nth-child(even){
+    background-color:aquamarine;
+}
+tr:nth-child(odd){
+    background-color:rgb(146, 148, 13);
+}
+tr:hover{
+    background-color:yellow;
+}
+#one{
+    width: 15%;
+}
+#heading{
+    height: 50px;
+    background-color:blanchedalmond;
+    border-collapse: none;
 }
 body{
     background-color: rgb(117, 39, 39);
 }
-thead{
-    background-color:red;
+#list1{
+font-family: 'Courier New', Courier, monospace;
+color:aquamarine;
 }
+
+
+h3{
+    text-decoration: underline;
+    color: rgb(255, 245, 247);
+}
+
+
+
         </style>
     </head>
     <body>
@@ -81,14 +110,14 @@ thead{
 
 <table>
     
-    <colgroup>
-        <col span="3" style="background-color: aquamarine;"
+<colgroup>
+        <col span="4" >
         </colgroup>
     
     <caption> Table</caption>
 <thead>
-    <tr>
-        <th id = "one">Name</th>
+    <tr id = "heading">
+        <th id = "one" colspan = "2">Name</th>
         <th id = "">Name</th>
         <th id ="">Name</th>
     </tr>
@@ -99,31 +128,43 @@ thead{
     <td>John</td>
     <td>John</td>
     <td>John</td>
+    <td>John</td>
+</tr>
 
+<tr>
+    <td rowspan = "2" >John</td>
+    <td>John</td>
+    <td>John</td>
+    <td>John</td>
 </tr>
 
 <tr>
     <td>John</td>
     <td>John</td>
     <td>John</td>
-
+    
 </tr>
 
 <tr>
     <td>John</td>
     <td>John</td>
     <td>John</td>
-
-</tr>
-
-<tr>
     <td>John</td>
-    <td>John</td>
-    <td>John</td>
-
 </tr>
 
 </table>
+<h3> Programming languages </h3>
+
+<ul id = "list1">
+<li>HTML5</li>
+<li>CSS3</li>
+<li>javaScript</li>
+<li>Bootstrap 5</li>
+<li>GoLang</li>
+<li>Swift 5</li>
+
+</ul>
+
 
         </body>
     </html>
